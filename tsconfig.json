@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "es6", "scripthost", "esnext"],
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["*"]
+    },
+    "allowJs": true,
+    "esModuleInterop": true,
+    "module": "es2015",
+    "target": "es2015",
+    "sourceMap": true,
+    "inlineSources": true,
+    "allowSyntheticDefaultImports": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+      "node_modules",
+      "**/*.spec.ts",
+      "ts-out/**/*",
+      "babel-out/**/*"
+  ]
+}
